@@ -1,0 +1,32 @@
+.barcode{
+    display: flex;
+    justify-content: space-between; 
+}
+.Tabel{
+    background-color: lightgray;
+    padding: 15px;
+}
+.dote{
+    font-size: x-large;
+    margin-left: 10px;
+    color: navy;
+}
+.Addbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Addbutton button{
+    background-color: navy;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 8px;
+    margin-right: 10px;
+    outline: none;
+}
+.search{
+    background-color: navy;
+    color: #fff;
+    padding: 4px 6px;
+}

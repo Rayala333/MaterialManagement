@@ -1,0 +1,48 @@
+ {
+        "label": "Branch",
+        "options": [
+          {"value": "branch1", "label": "Branch 1"},
+          {"value": "branch2", "label": "Branch 2"},
+          {"value": "branch3", "label": "Branch 3"}
+        ]
+      },
+      {
+        "label": "From Branch",
+        "options": [
+          {"value": "from_branch1", "label": "From Branch 1"},
+          {"value": "from_branch2", "label": "From Branch 2"},
+          {"value": "from_branch3", "label": "From Branch 3"}
+        ]
+      },
+      {
+        "label": "Category",
+        "options": [
+          {"value": "category1", "label": "Category 1"},
+          {"value": "category2", "label": "Category 2"},
+          {"value": "category3", "label": "Category 3"}
+        ]
+      },
+      {
+        "label": "Warehouse",
+        "options": [
+          {"value": "warehouse1", "label": "Warehouse 1"},
+          {"value": "warehouse2", "label": "Warehouse 2"},
+          {"value": "warehouse3", "label": "Warehouse 3"}
+        ]
+      },
+      {
+        "label": "From Warehouse",
+        "options": [
+          {"value": "from_warehouse1", "label": "From Warehouse 1"},
+          {"value": "from_warehouse2", "label": "From Warehouse 2"},
+          {"value": "from_warehouse3", "label": "From Warehouse 3"}
+        ]
+      },
+      {
+        "label": "Request Number",
+        "options": [
+          {"value": "request1", "label": "Request 1"},
+          {"value": "request2", "label": "Request 2"},
+          {"value": "request3", "label": "Request 3"}
+        ]
+      }

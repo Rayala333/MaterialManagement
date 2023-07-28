@@ -1,0 +1,19 @@
+.Head{
+    background-color: navy;
+    color: #fff;
+    padding: 10px;
+}
+.navicons{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.sidenave{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+span{
+    padding-right: 13px;
+}

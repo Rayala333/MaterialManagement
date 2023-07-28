@@ -1,0 +1,21 @@
+.footermain{
+    background-color: navy;
+    padding: 10px;
+}
+.myfooter{
+   
+    align-items: center;
+    width: 90%;
+}
+.leftfooter,.rightfooter{
+    display: flex;
+    gap: 10px;
+}
+
+
+.save{
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    width: 100px;
+}
