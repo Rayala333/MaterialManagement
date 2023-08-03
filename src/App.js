@@ -1,4 +1,4 @@
-import React,{ createContext, useEffect, useState }  from 'react';
+import React,{ createContext, useEffect, useRef, useState }  from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Component from './components/Component';
@@ -34,8 +34,8 @@ const App = () => {
     } 
   }
 
-  console.log(formdata,"app")
-  console.log(userdata,"app-1")
+  // console.log(formdata,"app")
+  // console.log(userdata,"app-1")
 
   // const userData = async()=>{
   //   try{
@@ -48,9 +48,14 @@ const App = () => {
   // }
   
 
-
+  const shouldlog = useRef(true)
   useEffect(()=>{
+    if(shouldlog.current){
+      shouldlog.current = false
       getData()
+      console.log("hello")
+    }
+      return(()=>getData())
   },[])
 
   const clickEdite =(Id)=>{
